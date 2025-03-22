@@ -1,0 +1,46 @@
+ Title: Data Visualization & Business Insights with Tableau   
+
+ Project: Analyzing Global Chocolate Sales Using Tableau   
+
+ Overview:   
+This project demonstrates the use of Tableau for visualizing and analyzing chocolate sales across different countries. It covers data preparation, visualization techniques, and dashboard creation to derive meaningful business insights.  
+
+    Process & Key Steps   
+
+  #  1. Data Preparation & Cleaning   
+-  Source:  Imported online sales data.  
+-  Handling Null Values:  Enabled  Data Interpreter  while connecting to the data source.  
+-  Removing Duplicates:  Used  Tableau Prep  with:  
+  -  Group and Replace  to merge similar records.  
+  -  Aggregate  to remove duplicate entries.  
+
+  #  2. Data Visualization   
+
+-  Sheet 1: Country-wise Sales Representation   
+  - Selected  Country  (Rows) and  Revenue Generated  (Columns).  
+  - Used  Text Tables  to display revenue by country.  
+  - Enhanced visualization with  Stacked Bar Charts.  
+  - Sorted countries in  descending order  based on sales.  
+
+-  Sheet 2: Top 10 Salespersons   
+  - Created a  Horizontal Bar Chart  for top-performing salespeople.  
+  - Applied a  Top 10 Filter  based on total sales revenue.  
+
+  #  3. Dashboard Creation   
+- Created a  new dashboard, where all sheets became visible.  
+- Used  drag-and-drop  functionality to arrange visual elements.  
+- Enabled  floating layout  for flexible resizing and positioning.  
+
+  #  4. Interactive Filtering   
+- Enabled  sheet-level filtering  to analyze individual salesperson performance.  
+  - Selected a sheet → Opened drop-down menu → Clicked  "Use as Filter".  
+
+  #  5. Business Summary Report   
+-  Sheet 3: Shipment Analysis   
+  - Added  Amount and Boxes Shipped  to rows in a  Text Table  view.  
+  - Created a  Calculated Field  for shipment count: `COUNT(Data)`.  
+  - Moved  Measure Names  to columns for better readability.  
+  - Integrated the summary into the dashboard with proper formatting.  
+
+ Outcome:   
+This Tableau project provided actionable insights into global chocolate sales, enabling data-driven decision-making by identifying top-selling regions, best-performing salespeople, and shipment trends.  
